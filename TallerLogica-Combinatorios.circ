@@ -534,16 +534,6 @@
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(1690,280)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="A"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(1770,280)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="B"/>
-      <a name="width" val="4"/>
-    </comp>
     <comp lib="0" loc="(1780,320)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
@@ -568,15 +558,25 @@
       <a name="label" val="C"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(1830,240)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="OP"/>
-      <a name="width" val="2"/>
-    </comp>
     <comp lib="0" loc="(390,670)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(420,580)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="OP"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(440,390)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(440,440)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="B"/>
+      <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(460,660)" name="Splitter">
       <a name="facing" val="south"/>
@@ -712,50 +712,40 @@
     <wire from="(1560,500)" to="(1590,500)"/>
     <wire from="(1570,590)" to="(1770,590)"/>
     <wire from="(1610,900)" to="(1640,900)"/>
-    <wire from="(1690,280)" to="(1700,280)"/>
     <wire from="(1690,350)" to="(1780,350)"/>
     <wire from="(1690,880)" to="(1720,880)"/>
-    <wire from="(1700,270)" to="(1700,280)"/>
     <wire from="(1720,380)" to="(1720,880)"/>
     <wire from="(1720,380)" to="(1780,380)"/>
     <wire from="(1740,320)" to="(1740,750)"/>
     <wire from="(1740,320)" to="(1780,320)"/>
-    <wire from="(1770,280)" to="(1780,280)"/>
     <wire from="(1770,410)" to="(1770,590)"/>
     <wire from="(1770,410)" to="(1780,410)"/>
-    <wire from="(1780,280)" to="(1780,300)"/>
-    <wire from="(1830,240)" to="(1840,240)"/>
-    <wire from="(1840,240)" to="(1840,260)"/>
     <wire from="(330,420)" to="(330,670)"/>
     <wire from="(330,420)" to="(470,420)"/>
     <wire from="(330,670)" to="(390,670)"/>
     <wire from="(360,510)" to="(360,660)"/>
     <wire from="(360,510)" to="(470,510)"/>
     <wire from="(360,660)" to="(460,660)"/>
-    <wire from="(390,260)" to="(1840,260)"/>
-    <wire from="(390,260)" to="(390,580)"/>
-    <wire from="(390,580)" to="(440,580)"/>
     <wire from="(390,670)" to="(650,670)"/>
     <wire from="(400,690)" to="(400,780)"/>
     <wire from="(410,690)" to="(410,730)"/>
     <wire from="(410,730)" to="(460,730)"/>
+    <wire from="(420,580)" to="(440,580)"/>
     <wire from="(420,690)" to="(420,720)"/>
     <wire from="(420,720)" to="(520,720)"/>
     <wire from="(420,830)" to="(420,890)"/>
     <wire from="(420,890)" to="(490,890)"/>
     <wire from="(430,690)" to="(580,690)"/>
+    <wire from="(440,390)" to="(470,390)"/>
+    <wire from="(440,440)" to="(470,440)"/>
     <wire from="(440,580)" to="(440,630)"/>
     <wire from="(440,580)" to="(470,580)"/>
     <wire from="(440,630)" to="(1400,630)"/>
     <wire from="(440,700)" to="(440,780)"/>
     <wire from="(440,700)" to="(470,700)"/>
-    <wire from="(460,300)" to="(1780,300)"/>
-    <wire from="(460,300)" to="(460,440)"/>
-    <wire from="(460,440)" to="(470,440)"/>
     <wire from="(460,660)" to="(720,660)"/>
     <wire from="(460,730)" to="(460,780)"/>
-    <wire from="(470,270)" to="(1700,270)"/>
-    <wire from="(470,270)" to="(470,420)"/>
+    <wire from="(470,390)" to="(470,420)"/>
     <wire from="(470,420)" to="(850,420)"/>
     <wire from="(470,440)" to="(470,510)"/>
     <wire from="(470,440)" to="(610,440)"/>
